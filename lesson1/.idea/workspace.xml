@@ -128,6 +128,7 @@
         <option value="$PROJECT_DIR$/src/com/company/Cat.java" />
         <option value="$PROJECT_DIR$/src/com/company/Vector3d.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Phone.java" />
       </list>
     </option>
   </component>
@@ -140,7 +141,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="140" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -220,12 +221,12 @@
       <option name="presentableId" value="Default" />
       <updated>1532108890828</updated>
       <workItem from="1532108895727" duration="755000" />
-      <workItem from="1532361876882" duration="4612000" />
+      <workItem from="1532361876882" duration="6169000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5367000" />
+    <option name="totallyTimeSpent" value="6924000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -241,10 +242,10 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49702382" weight="0.32930845" />
-      <window_info active="true" anchor="bottom" x="115" y="678" width="650" height="259" id="Terminal" order="7" sideWeight="0.49761903" visible="true" weight="0.2996707" />
+      <window_info anchor="bottom" x="115" y="678" width="650" height="259" id="Terminal" order="7" sideWeight="0.49761903" visible="true" weight="0.2996707" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20595238" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20595238" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -268,7 +269,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -363,6 +364,27 @@
             <element signature="e#536#537#0" expanded="true" />
             <element signature="e#570#571#0" expanded="true" />
             <element signature="e#596#597#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Phone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
+          <folding>
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+            <element signature="e#792#793#0" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
+            <element signature="e#887#888#0" expanded="true" />
           </folding>
         </state>
       </provider>
