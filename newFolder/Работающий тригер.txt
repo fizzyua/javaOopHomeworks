@@ -1,0 +1,8 @@
+DELIMITER //
+CREATE TRIGGER tst_trg
+BEFORE INSERT ON Lst_Cat
+FOR EACH ROW BEGIN
+	if(select exists(select CategoryParentId FROM Lst_Cat WHERE Lst_Cat.CategoryParentId = new.CategoryParentId)) then SIGNAL SQLSTATE '02000' SET MESSAGE_TEXT = 'Некорректный CategoryParentId';
+    end if;
+END;//
+DELIMITER ;
