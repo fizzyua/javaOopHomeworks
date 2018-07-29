@@ -17,6 +17,11 @@ public class Main {
         System.out.println(r.toString());
         System.out.println("Перимитр четерехугольника: " + r.calculatePerimetr());
         System.out.println("Площадь четерехугольника: " + r.calculateArea());
-
+        Board a =  new Board();
+        a.addNewShape(0,t);
+        a.addNewShape(1,c);
+        a.addNewShape(3,r);
+        a.deleteShape(1);
+        System.out.println(a.toString());
     }
 }
