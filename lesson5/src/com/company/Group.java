@@ -22,7 +22,7 @@ public class Group implements MilitarRegistration{
         Student example = new Student();
         for (int i = 0; i < 10; i++) {
             if (students[i] != null) {
-                if (students[i].getLastName().equals(lastName)) {
+                if (students[i].getLastName() == lastName) {
                     example = students[i];
                     return example;
                 }
@@ -73,31 +73,28 @@ public class Group implements MilitarRegistration{
                 "students=" + (students == null ? null : Arrays.asList(students)) +
                 '}';
     }
-    private int getInteractiveAge(){
+
+    public void interactiveAddStudent(){
+
+        String[] sexenam = { "male", "female"};
         int age = 0;
+        String sex = "";
+        String firstName = "";
+        String lastName = "";
+        String group = "";
         for(;;) {
             try {
-                age =  Integer.parseInt(JOptionPane.showInputDialog(null, "How old is a student?", "Add new student", JOptionPane.QUESTION_MESSAGE));
+            age =  Integer.parseInt(JOptionPane.showInputDialog(null, "How old is a student?", "Add new student", JOptionPane.QUESTION_MESSAGE));
             }
             catch (Exception e) { }
             if(age > 0) break;
         }
-        return age;
-    }
-    private String getInteractiveSex(){
-        String[] sexenam = { "male", "female"};
-        String sex = "";
         for(;;) {
             try { sex = (String) JOptionPane.showInputDialog(null, "What gender is a student?", "Add new student", JOptionPane.QUESTION_MESSAGE, null, sexenam, sexenam[0]);
             }
             catch (Exception e) { }
             if (sex != "") break;
         }
-        return sex;
-
-    }
-    private String getInteractiveFirstName(){
-        String firstName = "";
         for(;;) {
             try {
                 firstName = JOptionPane.showInputDialog(null, "What is the name of the student?", "Add new student", JOptionPane.QUESTION_MESSAGE);
@@ -105,10 +102,6 @@ public class Group implements MilitarRegistration{
             }
             if (!firstName.equals("")) break;
         }
-        return firstName;
-    }
-    private String getInteractiveLastName(){
-        String lastName = "";
         for(;;) {
             try {
                 lastName = JOptionPane.showInputDialog(null, "What is the last name of the student?", "Add new student", JOptionPane.QUESTION_MESSAGE);
@@ -116,10 +109,6 @@ public class Group implements MilitarRegistration{
             }
             if (!lastName.equals("")) break;
         }
-        return  lastName;
-    }
-    private String getInteractiveGroup(){
-        String group = "";
         for(;;) {
             try {
                 group = JOptionPane.showInputDialog(null, "in which group will the student study?", "Add new student", JOptionPane.QUESTION_MESSAGE);
@@ -127,16 +116,9 @@ public class Group implements MilitarRegistration{
             }
             if (!group.equals("")) break;
         }
-        return group;
-    }
 
-    public void interactiveAddStudent(){
-        int age = getInteractiveAge();
-        String sex = getInteractiveSex();
-        String firstName = getInteractiveFirstName();
-        String lastName = getInteractiveLastName();
-        String group = getInteractiveGroup();
         Student student = new Student(age,sex,firstName,lastName,group);
+
         try {
             this.addStudentToGroup(student);
         } catch (MyException e) {
