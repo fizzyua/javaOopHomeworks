@@ -15,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="442">
-              <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+              <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,20 +61,24 @@
               <ID>JAVA</ID>
               <OriginalElement />
               <nodes>
-                <node x="407.0" y="0.0">com.company.Group</node>
-                <node x="0.0" y="411.0">com.company.Student</node>
-                <node x="0.0" y="641.0">com.company.MyException</node>
-                <node x="58.5" y="0.0">com.company.Human</node>
+                <node x="0.0" y="478.0">com.company.MyException</node>
+                <node x="264.66666666666663" y="0.0">com.company.Human</node>
+                <node x="174.66666666666663" y="646.0">com.company.Group</node>
+                <node x="193.99999999999997" y="411.0">com.company.Student</node>
               </nodes>
               <notes />
               <edges>
                 <edge source="com.company.Student" target="com.company.Human">
-                  <point x="0.0" y="-92.5" />
-                  <point x="0.0" y="180.5" />
+                  <point x="-90.5" y="-92.5" />
+                  <point x="284.5" y="386.0" />
+                  <point x="325.91666666666663" y="386.0" />
+                  <point x="-61.25" y="180.5" />
                 </edge>
               </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="-390.0" y="-189.5" />
-              <SelectedNodes />
+              <settings layout="Hierarchic Group" zoom="0.43087971274685816" x="276.5" y="547.0" />
+              <SelectedNodes>
+                <node>com.company.MyException</node>
+              </SelectedNodes>
               <Categories>
                 <Category>Fields</Category>
                 <Category>Constructors</Category>
@@ -86,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Group.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Group.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Group.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="225" column="9" lean-forward="true" selection-start-line="225" selection-start-column="9" selection-end-line="225" selection-end-column="9" />
+            <state relative-caret-position="1071">
+              <caret line="225" column="9" selection-start-line="225" selection-start-column="9" selection-end-line="225" selection-end-column="9" />
               <folding>
                 <element signature="method#addStudentToGroup#0;class#Group#0" />
                 <element signature="method#findStudentByLastName#0;class#Group#0" />
@@ -124,7 +128,7 @@
       <file leaf-file-name="Human.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Human.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
+            <state relative-caret-position="459">
               <caret line="43" selection-start-line="43" selection-end-line="43" />
               <folding>
                 <element signature="e#172#173#0" expanded="true" />
@@ -188,6 +192,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -211,7 +216,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -268,18 +272,19 @@
       <workItem from="1533386891065" duration="966000" />
       <workItem from="1533387950284" duration="75000" />
       <workItem from="1533483311492" duration="4461000" />
+      <workItem from="1534528358336" duration="15000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27506000" />
+    <option name="totallyTimeSpent" value="27521000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32930845" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -291,7 +296,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -299,13 +304,14 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39956093" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3297619" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32930845" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,6 +334,115 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/MyException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/MilitarRegistration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/lesson3UML.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="0.0" y="478.0">com.company.MyException</node>
+            <node x="264.66666666666663" y="0.0">com.company.Human</node>
+            <node x="174.66666666666663" y="646.0">com.company.Group</node>
+            <node x="193.99999999999997" y="411.0">com.company.Student</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.company.Student" target="com.company.Human">
+              <point x="-90.5" y="-92.5" />
+              <point x="284.5" y="386.0" />
+              <point x="325.91666666666663" y="386.0" />
+              <point x="-61.25" y="180.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.43087971274685816" x="276.5" y="547.0" />
+          <SelectedNodes>
+            <node>com.company.MyException</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Group.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="225" column="9" lean-forward="true" selection-start-line="225" selection-start-column="9" selection-end-line="225" selection-end-column="9" />
+          <folding>
+            <element signature="method#addStudentToGroup#0;class#Group#0" />
+            <element signature="method#findStudentByLastName#0;class#Group#0" />
+            <element signature="method#deleteStudentByPosition#0;class#Group#0" />
+            <element signature="method#swapStudents#0;class#Group#0" />
+            <element signature="method#swapInt#0;class#Group#0" />
+            <element signature="method#toString#0;class#Group#0" />
+            <element signature="method#getInteractiveAge#0;class#Group#0" />
+            <element signature="method#getInteractiveSex#0;class#Group#0" />
+            <element signature="method#getInteractiveFirstName#0;class#Group#0" />
+            <element signature="method#getInteractiveLastName#0;class#Group#0" />
+            <element signature="method#getInteractiveGroup#0;class#Group#0" />
+            <element signature="method#interactiveAddStudent#0;class#Group#0" />
+            <element signature="method#toStringByAlfavit#0;class#Group#0" />
+            <element signature="method#getDraftee#0;class#Group#0" />
+            <element signature="method#getStudentsFromStr#0;class#Group#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Human.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -693,20 +808,24 @@
           <ID>JAVA</ID>
           <OriginalElement />
           <nodes>
-            <node x="407.0" y="0.0">com.company.Group</node>
-            <node x="0.0" y="411.0">com.company.Student</node>
-            <node x="0.0" y="641.0">com.company.MyException</node>
-            <node x="58.5" y="0.0">com.company.Human</node>
+            <node x="0.0" y="478.0">com.company.MyException</node>
+            <node x="264.66666666666663" y="0.0">com.company.Human</node>
+            <node x="174.66666666666663" y="646.0">com.company.Group</node>
+            <node x="193.99999999999997" y="411.0">com.company.Student</node>
           </nodes>
           <notes />
           <edges>
             <edge source="com.company.Student" target="com.company.Human">
-              <point x="0.0" y="-92.5" />
-              <point x="0.0" y="180.5" />
+              <point x="-90.5" y="-92.5" />
+              <point x="284.5" y="386.0" />
+              <point x="325.91666666666663" y="386.0" />
+              <point x="-61.25" y="180.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-390.0" y="-189.5" />
-          <SelectedNodes />
+          <settings layout="Hierarchic Group" zoom="0.43087971274685816" x="276.5" y="547.0" />
+          <SelectedNodes>
+            <node>com.company.MyException</node>
+          </SelectedNodes>
           <Categories>
             <Category>Fields</Category>
             <Category>Constructors</Category>
@@ -724,10 +843,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Human.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Group.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="225" column="9" lean-forward="true" selection-start-line="225" selection-start-column="9" selection-end-line="225" selection-end-column="9" />
+        <state relative-caret-position="1071">
+          <caret line="225" column="9" selection-start-line="225" selection-start-column="9" selection-end-line="225" selection-end-column="9" />
           <folding>
             <element signature="method#addStudentToGroup#0;class#Group#0" />
             <element signature="method#findStudentByLastName#0;class#Group#0" />
@@ -744,29 +886,6 @@
             <element signature="method#toStringByAlfavit#0;class#Group#0" />
             <element signature="method#getDraftee#0;class#Group#0" />
             <element signature="method#getStudentsFromStr#0;class#Group#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Human.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="e#172#173#0" expanded="true" />
-            <element signature="e#198#199#0" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
