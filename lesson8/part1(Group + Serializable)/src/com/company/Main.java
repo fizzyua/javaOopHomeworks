@@ -20,7 +20,8 @@ public class Main {
         }
 
         try {
-            SerializableFileWork.loadObjectFromFile(new File("t.group"));
+            Group groupTwo = (Group) SerializableFileWork.loadObjectFromFile(new File("t.group"));
+            System.out.println(groupTwo.toStringByAlfavit());
         } catch (IOException e) {
             e.printStackTrace();
         } catch (ClassNotFoundException e) {

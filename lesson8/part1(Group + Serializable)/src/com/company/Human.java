@@ -1,6 +1,8 @@
 package com.company;
 
-public class Human {
+import java.io.Serializable;
+
+public class Human implements Serializable {
     private int age;
     private String sex;
     private String firstName;

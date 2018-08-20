@@ -1,6 +1,8 @@
 package com.company;
 
-public class Student extends Human{
+import java.io.Serializable;
+
+public class Student extends Human implements Serializable {
     private String group;
 
     public String getGroup() {
